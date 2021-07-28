@@ -114,6 +114,63 @@ h2.title {
     margin: 13px auto 0;
 }
 
+.waiting {
+    background: #EFEFEF;
+    height: 604px;
+    padding: 85px 0 75px 0;
+}
+
+.waiting .waiting_header {
+    color: #252525;
+    font-family: Roboto, serif;
+    font-weight: 400;
+    font-size: 30px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.waiting .waiting_divider {
+    background: #F9BF3B;
+    width: 217px;
+    height: 4px;
+    margin: 18px auto 0;
+}
+
+.waiting .waiting_subheader {
+    color: #4A4A4A;
+    font-family: Roboto, serif;
+    font-weight: 400;
+    font-size: 23px;
+    text-align: center;
+    margin-top: 17px;
+}
+
+.waiting .waiting_wrapper {
+    margin-top: 45px;
+}
+
+.waiting .waiting_wrapper .waiting_item {
+    display: inline-block;
+    vertical-align: top;
+    width: 339px;
+    margin: 0 15px;
+    text-align: center;
+}
+
+.waiting .waiting_wrapper .waiting_item .waiting_img {
+    width: 100%;
+}
+
+.waiting .waiting_wrapper .waiting_item .waiting_descr {
+    color: #4A4A4A;
+    margin-top: 33px;
+    font-family: Roboto, serif;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 21px;
+}
+
+
 
 
 
