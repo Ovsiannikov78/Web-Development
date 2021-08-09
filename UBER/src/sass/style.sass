@@ -23,11 +23,11 @@ nav
   margin: 0
   list-style-type: none
 
-  .menu_item
+  &_item
     border-right: 2px dotted black
     padding-right: 60px
 
-  .menu_link
+  &_link
     color: $third-color
     font-weight: 300
     font-size: 15px
@@ -40,30 +40,30 @@ nav
   top: 50px
   background-color: rgba(0, 0, 0, 0.6)
 
-  .subheader_logo
+  &_logo
     display: block
     max-width: 100%
     margin-top: 16px
 
-  .subheader_official
+  &_official
     color: $third-color
     opacity: 0.5
     margin-top: 6px
     font-weight: 200
     font-size: 13px
 
-  .subheader_logo img
+  &_logo img
     width: 285px
     height: 32px
 
-  .subheader_call
+  &_call
     color: $third-color
     font-weight: 300
     margin-top: 19px
     font-size: 13px
     text-align: right
 
-  .subheader_phone
+  &_phone
     display: block
     color: $third-color
     margin-top: 8px
@@ -74,7 +74,7 @@ nav
     line-height: 12px
     text-decoration-line: none
 
-  .subheader_btn
+  &_btn
     width: 172px
     height: 46px
     background: linear-gradient(0deg, $main-color 0%, #4CE2FF 100%)
@@ -93,7 +93,7 @@ nav
   background: url("../img/bg/main_bg.png") center (center / cover) no-repeat
   padding: 150px 0 135px 0
 
-  .promo_header
+  &_header
     color: $third-color
     font-weight: 700
     font-size: 60px
@@ -102,7 +102,7 @@ nav
     text-transform: uppercase
     margin: 0
 
-  .promo_subheader
+  &_subheader
     color: $third-color
     font-weight: 700
     font-size: 36px
@@ -111,7 +111,7 @@ nav
     text-transform: uppercase
     margin: 15px 0 0
 
-  .promo_text
+  &_text
     color: $third-color
     font-weight: 400
     font-size: 18px
@@ -119,7 +119,7 @@ nav
     text-align: center
     margin-top: 25px
 
-  .promo_btn
+  &_btn
     display: block
     margin: 118px auto 0 auto
     width: 259px
@@ -179,13 +179,14 @@ nav
   &_white
     color: $third-color
 
-.reasons .reasons_block
-  display: flex
-  justify-content: center
-  align-items: center
-  margin-top: 35px
+.reasons
+  &_block
+    display: flex
+    justify-content: center
+    align-items: center
+    margin-top: 35px
 
-  .reasons_round
+  &_round
     display: flex
     justify-content: center
     align-items: center
@@ -199,16 +200,16 @@ nav
       max-width: 85px
       max-height: 73px
 
-  .reasons_descr
+  &_descr
     width: 343px
 
-    .reasons_subtitle
+    &_subtitle
       color: $main-color
       font-weight: 400
       font-size: 17px
       line-height: 21px
 
-    .reasons_text
+    &_text
       color: #202020
       font-size: 15px
       font-weight: 300
