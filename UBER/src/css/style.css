@@ -83,8 +83,8 @@ nav {
 .subheader .subheader_btn {
 		width: 172px;
 		height: 46px;
-		background: -webkit-gradient(linear, left bottom, left top, from(#1EACC7), to(#4CE2FF));
-		background: linear-gradient(0deg, #1EACC7 0%, #4CE2FF 100%);
+		background: -webkit-gradient(linear, left bottom, left top, from(#1eacc7), to(#4CE2FF));
+		background: linear-gradient(0deg, #1eacc7 0%, #4CE2FF 100%);
 		-webkit-box-shadow: inset 0 -3px 0 rgba(0, 0, 0, 0.12);
 		        box-shadow: inset 0 -3px 0 rgba(0, 0, 0, 0.12);
 		text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.21);
@@ -133,8 +133,8 @@ nav {
 		margin: 118px auto 0 auto;
 		width: 259px;
 		height: 63px;
-		background: -webkit-gradient(linear, left bottom, left top, from(#1EACC7), to(#4CE2FF));
-		background: linear-gradient(0deg, #1EACC7 0%, #4CE2FF 100%);
+		background: -webkit-gradient(linear, left bottom, left top, from(#1eacc7), to(#4CE2FF));
+		background: linear-gradient(0deg, #1eacc7 0%, #4CE2FF 100%);
 		-webkit-box-shadow: inset 0 -4px 0 rgba(0, 0, 0, 0.12);
 		        box-shadow: inset 0 -4px 0 rgba(0, 0, 0, 0.12);
 		border: none;
@@ -157,7 +157,7 @@ nav {
 		width: 112px;
 		padding: 5px 12px;
 		background-color: #000000;
-		color: #ffffff;
+		color: #FFFFFF;
 		font-size: 11px;
 		font-weight: 300;
 		text-align: center;
@@ -165,7 +165,7 @@ nav {
 		z-index: 2;
 }
 .label_white {
-		background-color: #fff;
+		background-color: #FFFFFF;
 		color: #000;
 }
 
@@ -179,7 +179,7 @@ nav {
 		z-index: 2;
 }
 .subtitle_white {
-		color: #fff;
+		color: #FFFFFF;
 }
 
 .title {
@@ -195,7 +195,7 @@ nav {
 		z-index: 2;
 }
 .title_white {
-		color: #fff;
+		color: #FFFFFF;
 }
 
 .reasons .reasons_block {
@@ -234,7 +234,7 @@ nav {
 		width: 343px;
 }
 .reasons .reasons_block .reasons_descr .reasons_subtitle {
-		color: #1EACC7;
+		color: #1eacc7;
 		font-weight: 400;
 		font-size: 17px;
 		line-height: 21px;
