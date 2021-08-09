@@ -267,6 +267,21 @@ nav
       margin: 0 auto
       border-radius: 100%
       cursor: pointer
+      &:before
+        content: ''      // Obligatory !!! Otherwise the pseudo elements will not be displayed
+        display: block
+        width: 14px
+        height: 2px
+        background-color: $main-color
+      &:after
+        position: absolute
+        content: ''
+        display: block
+        width: 2px
+        height: 14px
+        left: 50%
+        transform: translateX(-50%)
+        background-color: $main-color
       img
         width: 14px
         height: 14px
