@@ -273,6 +273,7 @@ nav
         width: 14px
         height: 2px
         background-color: $main-color
+        transition: 0.3s all
       &:after
         position: absolute
         content: ''
@@ -282,6 +283,10 @@ nav
         left: 50%
         transform: translateX(-50%)
         background-color: $main-color
+        transition: 0.3s all
+      &:hover
+        &:before,&:after
+          background-color: $second-color
       img
         width: 14px
         height: 14px

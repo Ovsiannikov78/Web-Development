@@ -323,6 +323,8 @@ nav {
 		width: 14px;
 		height: 2px;
 		background-color: #1eacc7;
+		-webkit-transition: 0.3s all;
+		transition: 0.3s all;
 }
 .mobile_item_plus:after {
 		position: absolute;
@@ -334,6 +336,11 @@ nav {
 		-webkit-transform: translateX(-50%);
 		        transform: translateX(-50%);
 		background-color: #1eacc7;
+		-webkit-transition: 0.3s all;
+		transition: 0.3s all;
+}
+.mobile_item_plus:hover:before, .mobile_item_plus:hover:after {
+		background-color: #ff5656;
 }
 .mobile_item_plus img {
 		width: 14px;
